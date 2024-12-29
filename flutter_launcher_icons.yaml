@@ -1,0 +1,21 @@
+flutter_launcher_icons:
+  android: "launcher_icon" # Specify the type of Android icon to generate
+  ios: true               # Enable iOS icon generation
+  web:                    # Configure web launcher icon
+    generate: true
+    image_path: "assets/images/logo.png" # Path to the logo for web
+    background_color: "#ffffff"       # Background color for the web icon
+    theme_color: "#ff4081"            # Theme color for the web icon
+  windows:                # Configure Windows icon generation
+    generate: true
+    image_path: "assets/images/logo.png" # Path to the logo for Windows
+    icon_size: 256                    # Icon size for Windows (min: 48, max: 256)
+  macos:                  # Configure macOS icon generation
+    generate: true
+    image_path: "assets/images/logo.png" # Path to the logo for macOS
+
+  image_path: "assets/images/logo.png" # Default image path for Android & iOS
+  min_sdk_android: 21                # Set minimum Android SDK version
+  adaptive_icon_background: "#ffffff" # Background color for adaptive icons (Android)
+  adaptive_icon_foreground: "assets/images/logo.png" # Foreground for adaptive icons (Android)
+  remove_alpha_channel_ios: true     # Remove alpha channel for iOS icons
